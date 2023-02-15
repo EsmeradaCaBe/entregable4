@@ -1,0 +1,78 @@
+.userCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid #7a7373;
+    border-radius: 8px;
+    padding: 20px 20px 10px;
+    max-width: 375px;
+    width: 350px;
+    min-height: 270px;
+  }
+
+  h3.userCard__name {
+    display: block;
+    margin: 0 auto; width: 250px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 25px;
+   
+  }
+  
+.userCard__space {
+    height: 0.2px;
+    width: 100%;
+    color: #787171;
+  }
+
+.userCard__list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  ul { 
+     list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.userCard__item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 18px;
+  }
+
+.userCard__footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  flex-direction: row;
+  width: 100%;
+ 
+}
+
+.userCard__footer-btn-trash {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #b50b0b;
+    border: 1px solid #8c1818; 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.userCard__footer-btn-edit{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #ffffff;    
+    background-color: #514b4b;
+    border: 1px solid #454141;  
+    border-radius: 5px;
+    cursor: pointer;
+  }
